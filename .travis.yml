@@ -1,5 +1,7 @@
+#example from a tutorial
+
 language: php 
 php: 
- - 5.5 
+ - 5.5   #version of PHP testing aagainst
  - hhvm 
-script: phpunit Test.php 
+script: phpunit Test.php  #what file we are testing
